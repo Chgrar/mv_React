@@ -4,6 +4,7 @@ import { Footer } from './Componentes/Footer/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Paginas } from "./Componentes/Paginas"
 import { DataProvider } from './Context/Dataprovider';
+import { Carrito } from './Componentes/Carrito/Index';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Navbar/>
         <Banner/>
+        <Carrito/>
         <Paginas/>
         <Footer/>
       </Router>
