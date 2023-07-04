@@ -6,6 +6,7 @@ import { Paginas } from "./Componentes/Paginas"
 import { DataProvider } from './Context/Dataprovider';
 import { Carrito } from './Componentes/Carrito/Index';
 
+
 function App() {
   return (
     <DataProvider>
