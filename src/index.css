@@ -156,6 +156,7 @@
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   gap: 3rem 1rem;
   box-sizing: border-box;
+
 }
 
 .producto{
@@ -165,7 +166,9 @@
   box-shadow: 1px 10px 10px 2px black;
   border: 6px solid transparent;
   border-radius: 5px;
+  text-align: center;
 }
+
 
 .producto:hover{
   border: 6px solid gray;
@@ -194,7 +197,7 @@
 
 .producto_footer .precio{
   font-size: 2rem;
-  color: black;
+  color: blue;
 }
 
 .producto .button{
@@ -372,8 +375,44 @@
   color: white;
   }
 
+/*Producto Vista*/
 
+.detalles{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
 
+.detalles img{
+  width: 20rem;
+  height: 30rem;
+  padding-top: 5rem;
+}
+
+.detalles h2{
+  font-size: 35px;
+  font-style: oblique;
+}
+
+.detalles p{
+  font-size: 25px;
+}
+
+.detalles h3{
+  font-size: 45px;
+  color: #3033d3; 
+}
+
+.detalles button{
+  background-color: #3033d3;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
 
  
 

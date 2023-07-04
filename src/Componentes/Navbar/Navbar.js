@@ -1,6 +1,7 @@
 import React,{useContext} from 'react'
 import { Link } from "react-router-dom"
 import { DataContext } from '../../Context/Dataprovider'
+import { Contacto } from '../Contacto/Contacto'
 
 
 export const Navbar = () => {

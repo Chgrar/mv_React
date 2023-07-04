@@ -25,7 +25,7 @@ export const ProductoItem = ({
           </Link>
       <div className='producto_footer'>
         <h1>{nombre}</h1>
-        <p>{descripcion}</p>
+        {/* <p>{descripcion}</p> */}
         <p className='precio'>${precio}</p>
       </div>
       <div className='button'>
@@ -33,8 +33,10 @@ export const ProductoItem = ({
           Agregar a Carrito
         </button>
         <div>
-        <Link to={`/producto/${id}`} className="btn">Vista</Link>
-        </div>
+        <Link to={`/productos/${id}`} className='btn'>
+          Vista
+        </Link>
+        </div> 
         </div>
       </div>
   )
