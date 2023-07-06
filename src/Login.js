@@ -16,8 +16,8 @@ class login extends Component{
                  :  <p>Por Favor, Iniciar Sesión</p> 
                 }
                 {
-                    user ? <button onClic={signOut}>Cerra Sesión</button>
-                    : <button onClic={signWithGoogle}>Iniciar Sesión con Google</button>
+                user ? <button onClic={signOut}>Cerra Sesión</button>
+                 : <button onClic={signWithGoogle}>Iniciar Sesión con Google</button>
                 }
             </div>
         )

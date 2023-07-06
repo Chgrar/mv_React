@@ -1,5 +1,5 @@
 export default{
-    apiKey: "AIzaSyB3zvF84oMBhPlvYreLLD_4weC9gfeNixk",
+  apiKey: "AIzaSyB3zvF84oMBhPlvYreLLD_4weC9gfeNixk",
   authDomain: "mvindumentaria-fcfb8.firebaseapp.com",
   projectId: "mvindumentaria-fcfb8",
   storageBucket: "mvindumentaria-fcfb8.appspot.com",

@@ -92,6 +92,44 @@
   background-color: red;
   }
 
+  /*Contacto*/
+
+  .div-form{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .titulo-form{
+    color: gray;
+    font-size: 45px;
+  }
+
+  .form-mail{
+    color: gray;
+    font-size: 30px;
+  }
+
+  
+
+  /*boton wsp*/
+
+  .btn-wsp box-icon{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    
+  }
+
+ 
+
 /* Banner */
 
 .Banner{

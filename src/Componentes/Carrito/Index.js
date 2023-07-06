@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { DataContext } from '../../Context/Dataprovider'
-import { BoxIconElement } from 'boxicons'
+
+import "boxicons"
 
 export const Carrito = () => {
     const value = useContext(DataContext)
