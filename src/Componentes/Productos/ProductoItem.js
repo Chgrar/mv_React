@@ -34,7 +34,7 @@ export const ProductoItem = ({
         </button>
         <div>
         <Link to={`/productos/${id}`} className='btn'>
-          Vista
+          Ver Producto
         </Link>
         </div> 
         </div>
