@@ -145,32 +145,33 @@
     
   }
 
- 
-
- 
 
 /* Banner */
 
 .Banner{
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-image: url("./../../mv/src/Imagenes/fotos/ImagenBanner.jpg");
+  background-size: cover;  
+  height: 100vh;  
 }
 
-.Banner-container{
-  text-align: center;
+.img-banner{
+  height: 100%;
+  width: 100%; 
+}
+
+.Banner-container{ 
   padding: 15% 0;
 }
 
-.Banner h1{
-  margin: 0;
+.banner-h1{ 
   color: white;
   text-shadow: 1px 1px 3px black;
   font-size: 7.5rem;
   font-weight: bold;
   text-shadow: 1px 2px 50px black;
   opacity: 0.5;
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 20%;
 }
 
 .Banner p{
@@ -178,6 +179,9 @@
   color: white;
   opacity: 0.5;
   text-shadow: 21px 50px 50px black;
+  position: absolute; 
+  padding-left: 16%;
+  padding-top: 35%;
 }
 
 /* Inicio */
