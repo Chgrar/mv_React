@@ -190,7 +190,7 @@
 
 .inicio h1{
   font-size: 2rem;
-  color: black;  
+  color: white;  
   justify-content: center;
   text-align: center;
 }
@@ -448,6 +448,7 @@ background-image: url("./Imagenes/fotos/Conjunto_Gymsis1_2.jpg");
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
+  color: black;
 }
 
 .carrito_footer .btn{

@@ -7,7 +7,7 @@ export const Carrito = () => {
     const value = useContext(DataContext)
     const [menu,setMenu] = value.menu
     const [carrito, setCarrito] = value.carrito
-    const [total]= value.total
+    const total= value.total
 
 
     const tooglefalse = ()=>{
@@ -51,7 +51,7 @@ export const Carrito = () => {
   return (
     <div className={show1}>
         <div className={show2}>
-            <div className='carrito_close' onClic={tooglefalse}>
+        <div onClick={tooglefalse} className="carrito_close">
                 <box-icon name="x"></box-icon>
             </div>
             <h2>Su Carrito</h2>
@@ -70,9 +70,9 @@ export const Carrito = () => {
                     </div>
                     
                     <div>
-                       <box-icon name="up-arrow" type="solid" onClic={() => suma(producto.id)}/>
+                       <box-icon name="up-arrow" type="solid" onClick={() => suma(producto.id)}/>
                         <p className='cantidad'>{producto.cantidad}</p>
-                        <box-icon name="down-arrow" type="solid" onClic={() => resta(producto.id)}/>
+                        <box-icon name="down-arrow" type="solid" onClick={() => resta(producto.id)}/>
                     </div>
                     <div className='remove_item' onClick={()=>removeProducto(producto.id)}>
                     <box-icon name="trash"/> 
@@ -86,7 +86,8 @@ export const Carrito = () => {
 
             </div>
             <div className='carrito_footer'>
-                <h3>Total: ${total}</h3>
+                <h3 >Total: ${total}
+                </h3>
                 <button className='btn'>Pago</button>
             </div>
         </div>

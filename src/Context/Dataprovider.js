@@ -1,4 +1,4 @@
-import React, {useState, useEffect, createContext} from "react"
+import React, { useState, useEffect, createContext } from "react"
 import {Data} from "./Data.js"
 
 export const DataContext = createContext();
@@ -9,7 +9,7 @@ export const DataProvider = (props) =>{
     const [carrito,setCarrito] = useState([])
     const [total,setTotal] = useState(0)
 
-    console.log(carrito)
+    console.log({carrito})
 
     useEffect(()=>{
         const producto = Data.items
@@ -53,9 +53,10 @@ export const DataProvider = (props) =>{
             const res = carrito.reduce((prev,item)=>{
                 return prev + (item.precio * item.cantidad);
             },0)
-        }
-        getTotal()
-    },[carrito])
+            setTotal(res)
+		}
+		getTotal()
+	},[carrito])
 
     const value = {
         productos : [productos],

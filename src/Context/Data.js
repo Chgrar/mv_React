@@ -8,7 +8,7 @@ export const Data = {
         imagen: require("../Imagenes/fotos/Slimfit_V_blanca.jpg"),
         imagen2:require("../Imagenes/fotos/Slimfit_V_blanca.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:2,
@@ -17,7 +17,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Slimfit_V_Negra.jpg"),
         imagen2:require("../Imagenes/fotos/Slimfit_V_Negra.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:3,
@@ -26,7 +26,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Slimfit_Amplio_Blanca_1.jpg"),
         imagen2:require("../Imagenes/fotos/Slimfit_Amplio_Blanca_2.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     }, 
     {
         id:4,
@@ -35,7 +35,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Slimfit_Amplio_Negra_1.jpg"),
         imagen2:require("../Imagenes/fotos/Slimfit_Amplio_Negra_2.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:5,
@@ -44,7 +44,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Musculosa_You_1.jpg"),
         imagen2:require("../Imagenes/fotos/Musculosa_You_2.jpg"),
         precio:4900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:6,
@@ -53,7 +53,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Musculosa_You_3.jpg"),
         imagen2:require("../Imagenes/fotos/Musculosa_You_4.jpg"),
         precio:4900,
-        cantidad:1,
+        cantidad:1
     },      
     {
         id:7,
@@ -62,7 +62,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Musculosa_Box.jpg"),
         imagen2:require("../Imagenes/fotos/Musculosa_Box.jpg"),
         precio:4900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:8,
@@ -71,7 +71,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Short_Bicolor_Gris.jpg"),
         imagen2:require("../Imagenes/fotos/Short_Bicolor_Negro.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:9,
@@ -80,7 +80,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Conjunto_Gymsis2_1.jpg"),
         imagen2:require("../Imagenes/fotos/Conjunto_Gymsis2_2.jpg"),
         precio:7500,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:10,
@@ -89,7 +89,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Conjunto_Gymsis1_3.jpg"),
         imagen2:require("../Imagenes/fotos/Conjunto_Gymsis1_4.jpg"),
         precio:7500,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:11,
@@ -98,7 +98,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Conjunto_Gymsis2_1.jpg"),
         imagen2:require("../Imagenes/fotos/Conjunto_Gymsis2_2.jpg"),
         precio:7500,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:12,
@@ -107,7 +107,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Musculosa_Rustica_Negra.jpg"),
         imagen2:require("../Imagenes/fotos/Musculosa_Rustica_Negra.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:13,
@@ -116,7 +116,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Musculosa_Rustica_Blanca.jpg"),
         imagen2:require("../Imagenes/fotos/Musculosa_Rustica_Blanca.jpg"),
         precio:5000,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:14,
@@ -125,7 +125,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Remeron1.jpg"),
         imagen2:require("../Imagenes/fotos/Remeron2.jpg"),
         precio:4900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:15,
@@ -134,7 +134,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Muscu_Minimal_1.jpg"),
         imagen2:require("../Imagenes/fotos/Muscu_Minimal_2.jpg"),
         precio:6900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:16,
@@ -143,7 +143,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Muscu_Minimal_3.jpg"),
         imagen2:require("../Imagenes/fotos/Muscu_Minimal_3.jpg"),
         precio:6900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:17,
@@ -152,7 +152,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Valhalla_4.jpg"),
         imagen2:require("../Imagenes/fotos/Valhalla_1.jpg"),
         precio:6900,
-        cantidad:1,
+        cantidad:1
     },
     {
         id:18,
@@ -161,7 +161,7 @@ export const Data = {
         imagen:require("../Imagenes/fotos/Valhalla_3.jpg"),
         imagen2:require("../Imagenes/fotos/Valhalla_2.jpg"),
         precio:6900,
-        cantidad:1,
+        cantidad:1
     }
     
 ]}
