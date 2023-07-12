@@ -531,12 +531,29 @@ background-image: url("./Imagenes/fotos/Conjunto_Gymsis1_2.jpg");
 }
 
 @media only screen and (max-width:600px){
+  .lista-item_link{
+    font-size: 1em;
+  }
 header ul{
   display: none;
 }
 }
 
 @media only screen and (max-width:450px){
+  .btn-wsp box-icon{    
+  right: 135px;
+}
+
+.img-contacto{
+padding: 0;
+}
+
+  .img-banner{
+    height: 70%;   
+  }
+  .lista-item_link{
+    font-size: 0.8em;
+  }
 .carrito_item h3{
  display: .5rem;
 }
@@ -570,6 +587,7 @@ header ul{
   padding:0 5rem 0 15rem;
   max-width: 15rem;
   max-height: 15rem;
+  
 
 }
 .img-pago{
