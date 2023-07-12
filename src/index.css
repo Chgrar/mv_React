@@ -544,12 +544,50 @@ header ul{
   right: 135px;
 }
 
+.title{
+  padding-top: 0;
+  margin-top: -200px;
+}
+
+.detalles{
+  padding-top: 0;
+  margin-top: -200px;
+}
+
+.inicio{
+  padding-top: 0;
+  margin-top: -250px;
+}
+
+.titulo-form{
+  padding-top: 0;
+  margin-top: -200px;
+}
+
+.img-logo{
+  margin-left: 1px;
+  margin-top: 2vh;
+  padding-left: 5px;
+  padding-bottom: 2vh;
+  max-height: 50px;
+  max-width: 50px;
+}
+
 .img-contacto{
 padding: 0;
 }
 
+.footer img{
+  padding-left: 0;
+  margin-left: 0;
+  max-height: 60px;
+  max-width: 60px;
+}
+
   .img-banner{
-    height: 70%;   
+    height: 55%; 
+    padding-bottom: 0;
+    margin-bottom: 0;  
   }
   .lista-item_link{
     font-size: 0.8em;

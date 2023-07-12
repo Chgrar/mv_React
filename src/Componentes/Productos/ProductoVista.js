@@ -24,6 +24,7 @@ export const ProductoVista = () => {
     <>
     {
         <div className='detalles'>
+          
             <img src={detalle.imagen2} alt={detalle.nombre}/>
             <h2>{detalle.nombre}</h2>
            
