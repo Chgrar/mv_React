@@ -20,7 +20,7 @@ export const Banner = () => {
             
            
             <div className='btn-wsp' >
-            <a href='http://api.whatsapp.com/send?phone=1164616606'>
+            <a href='http://api.whatsapp.com/send?phone=+5491164616606'>
             <box-icon name='whatsapp' type='logo' color='#11ea13' ></box-icon>
             </a>
             </div>
