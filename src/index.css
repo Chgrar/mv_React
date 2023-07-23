@@ -273,6 +273,7 @@ background-image: url("./Imagenes/fotos/Conjunto_Gymsis1_2.jpg");
   font-weight: 600;
   font-size: 1.5rem;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .producto_footer p{
@@ -487,10 +488,12 @@ background-image: url("./Imagenes/fotos/Conjunto_Gymsis1_2.jpg");
 .detalles h2{
   font-size: 35px;
   font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .detalles p{
   font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .detalles h3{
