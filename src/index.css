@@ -557,9 +557,14 @@ header ul{
   margin-top: -200px;
 }
 
-.inicio{
+.inicio {
   padding-top: 0;
-  margin-top: -250px;
+  margin-top: -450px;
+}
+
+.div-form{
+  padding-top: 0;
+  margin-top: -250px; 
 }
 
 .titulo-form{

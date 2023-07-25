@@ -9,6 +9,7 @@ export const ProductoItem = ({
         descripcion,
         imagen,
         imagen2,
+        talle,
         precio
 }) => {
 
@@ -25,7 +26,8 @@ export const ProductoItem = ({
           </Link>
       <div className='producto_footer'>
         <h1>{nombre}</h1>
-        {/* <p>{descripcion}</p> */}
+       
+        <p>Talles:   {talle}</p>
         <p className='precio'>${precio}</p>
       </div>
       <div className='button'>

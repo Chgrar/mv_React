@@ -66,6 +66,8 @@ export const Carrito = () => {
                     <img src={producto.imagen} alt={producto.nombre}/>
                     <div>
                        <h3>{producto.nombre}</h3> 
+                       <h3>talle:{producto.talle2}</h3>
+                        
                        <p className='precio'>${producto.precio}</p>
                     </div>
                     

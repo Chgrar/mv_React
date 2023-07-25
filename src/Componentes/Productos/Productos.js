@@ -22,6 +22,8 @@ console.log(productos)
         descripcion={producto.descripcion}
         imagen={producto.imagen}
         imagen2={producto.imagen2}
+        talle={producto.talle}
+        talle2={producto.talle2}
         precio={producto.precio}
         cantidad={producto.cantidad}
         />
